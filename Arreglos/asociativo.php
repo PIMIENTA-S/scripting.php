@@ -9,7 +9,9 @@
      "lenguaje3" => 'C++');
 
     // ACCEDER A LOS ELEMENTOS
-     echo $skills["lenguaje3"]
+     echo $skills["lenguaje3"];
 
     // IMPRIMIR ARREGLOS
+
+    print_r($skills);
 ?>

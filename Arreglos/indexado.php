@@ -9,4 +9,13 @@
     // IMPRIMIR ARREGLOS
     var_dump($numeros);
     print_r($sucesiones);
+
+    $alumnos = array(
+        array("angel", 15, "A+"),
+        array("juan", 25, "O"),
+        array("saira", 20, "O"),
+        array("daniel", 16, "O")
+    );
+
+    var_dump($alumnos);
 ?>
