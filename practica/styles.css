@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    padding: 5px;
+}
+
+h1 {
+    display: block;
+    color: blue;
+    padding: 20px;
+}
+
+.añadir{
+    text-decoration: none;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+
+}
