@@ -17,6 +17,7 @@ return new class extends Migration
             $table -> id();
             $table -> string('name'); // tipo varchar, se pueden ingrasar hasta 255 caractares, en caso de necesitar mas se usa el metodo text()
             $table -> text('descripcion');
+            $table -> string('avatar');
             $table -> timestamps(); // create_at updated_at
         });
     }
@@ -26,7 +27,11 @@ return new class extends Migration
      */
     public function down(): void
     {
-        // p
+        Schema::dropIfExists('cursos');
 
     }
+
+    // retroceder con: php artisan migrate:rollback
+    // crear migracion de manera direccta con:  php artisan make:migration create_cursos_table
+    // actulizar cambios en basa de datos con: php artisan migrate:fresh
 };
