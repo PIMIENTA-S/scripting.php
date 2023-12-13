@@ -17,7 +17,7 @@ return new class extends Migration
             $table -> id();
             $table -> string('name'); // tipo varchar, se pueden ingrasar hasta 255 caractares, en caso de necesitar mas se usa el metodo text()
             $table -> text('descripcion');
-            $table -> string('avatar');
+            $table -> text('categoria');
             $table -> timestamps(); // create_at updated_at
         });
     }
