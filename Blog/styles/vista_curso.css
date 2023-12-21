@@ -46,6 +46,12 @@ thead {
 button {
     padding: 7px;
     border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 input {
