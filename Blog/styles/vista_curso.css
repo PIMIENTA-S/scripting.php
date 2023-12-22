@@ -4,10 +4,15 @@
     display: flex;
 }
 
+form {
+    width: 25%;
+}
+
 .cart {
     flex: 3;
     border: 1px solid rgb(236, 236, 236);
     padding: 10px;
+    width: 100%;
 }
 
 .cuerpo, input {
